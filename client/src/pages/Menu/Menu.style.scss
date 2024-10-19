@@ -1,0 +1,7 @@
+// If the user's system theme is dark, make Carleton Central dark theme as well
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgba(0, 0, 0, 0.89);
+        color: white;
+    }
+}

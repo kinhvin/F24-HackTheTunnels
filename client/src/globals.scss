@@ -1,2 +1,55 @@
 $theme: #e91c24;
 $theme--dark: #cc0033;
+
+// Improve the “page title” styling (see Central__page__title)
+.Central__page__title {
+    font-size: xxx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+}
+
+// Create an improved footer (see Central__page__footer)
+.Central__page__footer {
+
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.Central__page__content {
+    font-size: large;
+}
+
+.Central__page__footer__contact {
+    text-align: left;
+    padding: 10px;
+}
+
+.Central__page__footer__address {
+    text-align: center;
+}
+
+.Central__page__footer__phone {
+    text-align: left;
+    padding: 10px;
+}
+
+// Improve the colors
+div {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    // Unvisited link color
+    a:link {
+        color: rgb(51, 138, 192);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+
+    // Visited link color 
+    a:visited {
+        color: rgb(234, 63, 160);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+}
