@@ -1,16 +1,22 @@
 .ResultsSection {
   &__topbar {
+    
     display: flex;
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     padding-left: 0.5rem;
+    color: blue;
+    font-size: large;
 
     &__item {
       font-weight: bold;
       width: fit-content;
+    
     }
+    
   }
+
 
   &__result {
     display: flex;
@@ -26,11 +32,11 @@
     }
 
     &--gray {
-      background: #dcdcdc;
+      background: #575757;
     }
 
     &--light-gray {
-      background: #c0c0c0;
+      background: #3b3b3b;
     }
 
     &__content {
@@ -44,6 +50,8 @@
   &__results {
     max-height: 25rem;
     overflow-y: auto;
+    font-size: large;
+    
   }
 
   &__crn {
@@ -56,25 +64,32 @@
 
   &__subject {
     width: 7rem;
+    
   }
 
   &__section {
     width: 6rem;
+    text-align: center;
   }
 
   &__title {
     width: 12rem;
+    text-align: center;
   }
 
   &__credit {
     width: 5rem;
+    text-align: center;
   }
+
 
   &__type {
     width: 8rem;
+    text-align: center;
   }
 
   &__instructor {
     width: 9rem;
+    text-align: center;
   }
 }
