@@ -1,7 +1,7 @@
 @import "../../globals.scss";
 
 .Timetable {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 
@@ -17,7 +17,7 @@
 
     td {
       border: solid 2px #e0e0e0;
-      padding: 10px;
+      padding: 25px;
       text-align: center;
       height: 10px;
     }
@@ -29,11 +29,11 @@
   }
 
   &__head {
-    background-color: #cccccc;
+    background-color: #f3c600;
   }
 
   &__cell--event {
-    background-color: #cccccc;
+    background-color: #89b4ff;
   }
 
   &__cell--time {
@@ -41,7 +41,7 @@
   }
 
   &__cell--multiple-events {
-    background-color: rgba($theme--dark, 0.31);
+    background-color: rgba($theme--dark, 0.31); 
     color: $theme--dark;
     font-weight: bold;
   }
